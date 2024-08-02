@@ -39,7 +39,7 @@ function Form() {
           value={ano}
           onChange={handleAnoChange}
         />
-        <p>A sua idade é: {resultado !== null ? resultado : ''} anos</p>
+        <p>A sua idade é: {resultado !== null ? resultado : ''}  </p>
       </div>
     );
 }
